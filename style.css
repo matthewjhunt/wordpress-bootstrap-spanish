@@ -65,9 +65,8 @@ body.admin-bar .navbar-fixed-top{
 }
 
 .navbar .brand{
-	color: #000 !important;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 0 30px rgba(255, 255, 255, 0.125);
-	font-weight: bold !important;
+	color: #eee !important;
+	font-weight: 600 !important;
 }
 
 .nav-container{
@@ -121,6 +120,7 @@ input, textarea, select, .uneditable-input {
 /* diseño de la entrada */
 
 #main p.meta{
+	font-size: 12px !important;
 	font-style: italic;
 	color: #808080;
 }
@@ -258,7 +258,7 @@ video {
 
 
 #comments{
-	line-height: 24px;
+	line-height: 18px;
 	margin-bottom: 18px;
 }
 
@@ -436,45 +436,45 @@ li.previous a:hover:before{
 	margin-bottom: 18px;
 }
 
-.widgettitle{
+.widgettitle {
 	margin-bottom: 9px;
 }
 
-#tag-cloud{
+#tag-cloud {
 	margin-bottom: 18px;
 	line-height: 160%;
 }
 
 /* por alguna razón la versión actual de bs disponible para descarga no tiene este estilo */
-.label{
+.label {
 	text-transform: uppercase;
 }
 
 /* sobrescribe el enlace hover estándar para el widget nube de etiquetas */
 #tag-cloud a:hover,
-.tags a:hover{
+.tags a:hover {
 	color: #ffffff;
 	text-decoration: none;
 }
 
-#tag-cloud a{
+#tag-cloud a {
 	white-space: pre;
 	text-transform: uppercase;
 }
 
 /* cambia el padding predeterminado del formulario de búsqueda */
 
-.widget_search form{
+.widget_search form {
 	padding-left: 0;
 }
 
-.widget_search input{
+.widget_search input {
 	width: 121px;
 }
 
 /* widget calendario */
 
-#calendar_wrap{
+#calendar_wrap {
 	border: 1px solid #ddd;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -482,62 +482,62 @@ li.previous a:hover:before{
 	padding: 5px;
 }
 
-#wp-calendar{
+#wp-calendar {
 	width: 100%;
 	
 }
 
-#wp-calendar caption{
+#wp-calendar caption {
 	font-weight: bold;
 	padding: 8px;
 }
 
-#wp-calendar tr{
+#wp-calendar tr {
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
 }
 
-#wp-calendar tr:last-child{
+#wp-calendar tr:last-child {
 	border-bottom: none;
 }
 
-#wp-calendar td{
+#wp-calendar td {
 	text-align: center;
 	padding: 8px 0;
 }
 
-blockquote.pull-left{
+blockquote.pull-left {
 	padding-right: 15px;
 }
 
 @media only screen and (min-width: 768px) {
-	.carousel-caption p{
+	.carousel-caption p {
 		display: block;
 	}
 }
 
 @media only screen and (min-width: 980px) {
-	body{
+	body {
 		padding-top: 60px;
 	}
 	
-	.container-fluid{
+	.container-fluid {
 		max-width: 970px;
 		margin: 0 auto;
 		padding-left: 20px;
 		padding-right: 20px;
 	}
 	
-	#inner-footer{
+	#inner-footer {
 		padding: 0;
 	}
 	
-	#content{
+	#content {
 		padding-left: 0;
 		padding-right: 0;
 	}
 	
-	.topbar-inner{
+	.topbar-inner {
 		padding: 0;
 	}
 	

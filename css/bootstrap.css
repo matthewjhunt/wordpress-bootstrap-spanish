@@ -133,8 +133,8 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
   line-height: 18px;
   color: #333333;
   background-color: #ffffff;
@@ -342,6 +342,9 @@ a:hover {
   clear: both;
 }
 p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  line-height: 19px;
   margin: 0 0 9px;
 }
 p small {
@@ -376,22 +379,22 @@ h6 small {
   color: #999999;
 }
 h1 {
-  font-size: 30px;
+  font-size: 24px;
   line-height: 36px;
 }
 h1 small {
   font-size: 18px;
 }
 h2 {
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 20px;
+  line-height: 40px;
 }
 h2 small {
   font-size: 18px;
 }
 h3 {
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 20px;
+  line-height: 40px;
 }
 h3 small {
   font-size: 14px;
@@ -416,8 +419,8 @@ h6 {
   text-transform: uppercase;
 }
 .page-header {
-  padding-bottom: 17px;
-  margin: 18px 0;
+  padding-bottom: 8px;
+  margin: 18px 0 6px;
   border-bottom: 1px solid #eeeeee;
 }
 .page-header h1 {
@@ -499,14 +502,14 @@ abbr.initialism {
 }
 blockquote {
   padding: 0 0 0 15px;
-  margin: 0 0 18px;
+  margin: 20px 0;
   border-left: 5px solid #eeeeee;
 }
 blockquote p {
   margin-bottom: 0;
   font-size: 16px;
   font-weight: 300;
-  line-height: 22.5px;
+  line-height: 23.5px;
 }
 blockquote small {
   display: block;
@@ -549,17 +552,17 @@ code,
 pre {
   padding: 0 3px 2px;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-  font-size: 12px;
+  font-size: 13px;
   color: #333333;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
 code {
-  padding: 2px 4px;
+  padding: 0;
   color: #d14;
-  background-color: #f7f7f9;
-  border: 1px solid #e1e1e8;
+  background-color: inherit;
+  border: 0;
 }
 pre {
   display: block;
@@ -1258,10 +1261,13 @@ legend + .control-group {
   padding-left: 160px;
 }
 table {
+  min-width: 100%;
   max-width: 100%;
   background-color: transparent;
   border-collapse: collapse;
   border-spacing: 0;
+  text-align: center;
+  margin: 20px auto;
 }
 .table {
   width: 100%;
@@ -1274,6 +1280,8 @@ table {
   text-align: left;
   vertical-align: top;
   border-top: 1px solid #dddddd;
+  border-left: thin solid #eee;
+  border-right: thin solid #eee;
 }
 .table th {
   font-weight: bold;
@@ -3016,7 +3024,7 @@ input[type="submit"].btn.btn-mini {
   display: block;
   padding: 8px 20px 12px;
   margin-left: -20px;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 200;
   line-height: 1;
   color: #999999;
@@ -3737,7 +3745,7 @@ input[type="submit"].btn.btn-mini {
   margin-bottom: 0;
 }
 .thumbnails {
-  margin-left: -20px;
+  margin: 10px 0 0 -20px;
   list-style: none;
   *zoom: 1;
 }
