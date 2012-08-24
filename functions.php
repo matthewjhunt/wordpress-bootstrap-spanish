@@ -667,6 +667,22 @@ function get_wpbs_theme_options(){
       }
 } // end get_wpbs_theme_options function
 
+// Funciones personalizadas de emsLinux
+
+function add_twitter_contactmethod( $contactmethods ) {
+  
+  // Elimina Yahoo IM y AIM
+  unset($contactmethods['yim']);
+  unset($contactmethods['aim']);
+  
+  return $contactmethods;
+}
+add_filter('user_contactmethods','add_twitter_contactmethod',10,1);
+
+// Eliminar la opción de cambiar las comillas en WordPress
+
+remove_filter('the_content', 'wptexturize');
+
 
 
 ?>

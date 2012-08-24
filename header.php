@@ -16,15 +16,15 @@
 		
 		<!-- iconos & favicons -->
 		<!-- Para iPhone 4 -->
-		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/library/images/icons/h/apple-touch-icon.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://emslinux.com/wp-content/themes/wordpress-bootstrap-spanish/library/images/icons/h/apple-touch-icon.png">
 		<!-- Para iPad 1-->
-		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/library/images/icons/m/apple-touch-icon.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://emslinux.com/wp-content/themes/wordpress-bootstrap-spanish/library/images/icons/m/apple-touch-icon.png">
 		<!-- Para iPhone 3G, iPod Touch y Android -->
-		<link rel="apple-touch-icon-precomposed" href="<?php echo get_template_directory_uri(); ?>/library/images/icons/l/apple-touch-icon-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="http://emslinux.com/wp-content/themes/wordpress-bootstrap-spanish/library/images/icons/l/apple-touch-icon-precomposed.png">
 		<!-- Para Nokia -->
-		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/library/images/icons/l/apple-touch-icon.png">
+		<link rel="shortcut icon" href="http://emslinux.com/wp-content/themes/wordpress-bootstrap-spanish/library/images/icons/l/apple-touch-icon.png">
 		<!-- Para todo lo demás -->
-		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
+		<link rel="shortcut icon" href="http://emslinux.com/wp-content/themes/wordpress-bootstrap-spanish/favicon.ico">
 		
 		<!-- media-queries.js (de reserva) -->
 		<!--[if lt IE 9]>
